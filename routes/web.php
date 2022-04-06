@@ -24,7 +24,7 @@ Route::middleware([
         return view('dashboard');
     })->name('dashboard');
 });
-
+//using get to redirect 
 route::get('/redirect',[HomeController::class,'redirect']);
 
 route::get('/',[HomeController::class,'index']);
