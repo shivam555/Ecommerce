@@ -32,6 +32,7 @@ return [
     |            "postmark", "log", "array", "failover"
     |
     */
+    /* mailer */
 
     'mailers' => [
         'smtp' => [
