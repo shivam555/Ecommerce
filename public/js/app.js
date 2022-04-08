@@ -44,7 +44,7 @@ function flushJobs() {
   queue.length = 0;
   flushing = false;
 }
-
+// declaring diffirent variables 
 // packages/alpinejs/src/reactivity.js
 var reactive;
 var effect;
